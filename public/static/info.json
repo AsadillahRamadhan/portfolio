@@ -1,8 +1,8 @@
 {
-  "name": "James Smith",
-  "address": "New York",
-  "bio": "I'm creative designer based in New York, and I'm very passionate and dedicated to my work.",
-  "mainSkill": "Creative Designer",
+  "name": "Muhammad Asadillah Ramadhan",
+  "address": "Malang",
+  "bio": "I'm web developer based in Malang City, Indonesia, and I'm very passionate and dedicated to my work.",
+  "mainSkill": "Web Developer",
   "img": "/img/slider/avatar.png",
   "skills": [
     {
@@ -31,8 +31,8 @@
     { "name": "behance", "icon": "icon-behance", "url": "#" }
   ],
   "contact": {
-    "address": "20, Somewhere in world",
-    "email": "hello@dizme.com",
-    "phn": "+123 456 7890"
+    "address": "Jl. Sanan Gg. 8B No. 24, Malang City, Indonesia",
+    "email": "muhammadasadillahr@gmail.com",
+    "phn": "+62 895 4036 53913"
   }
 }

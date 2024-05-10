@@ -125,8 +125,9 @@ const Contact = () => {
                   height={375}
                   style={{ width: "100%" }}
                   id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.3651662518696!2d112.6417922744971!3d-7.961162279336836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62944507288c3%3A0x37342fbec695bc25!2sCLW%20laptop!5e0!3m2!1sen!2sid!4v1715301967280!5m2!1sen!2sid"
                 />
+              
                 <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon" />
                 <br />
               </div>
