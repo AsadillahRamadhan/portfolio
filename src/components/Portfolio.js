@@ -2,6 +2,7 @@ import Isotope from "isotope-layout";
 import { useEffect, useRef, useState } from "react";
 import { dataImage, portfolioHover } from "../utilits";
 import DetailsPopup from "./popup/DetailsPopup";
+import Link from "next/link";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -61,52 +62,52 @@ const Portfolio = () => {
           <div className="portfolio_filter">
             <ul>
               <li>
-                <a
+                <Link
                   className={`c-pointer ${activeBtn("*")}`}
                   onClick={handleFilterKeyChange("*")}
                 >
                   All
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={`c-pointer ${activeBtn("youtube")}`}
                   onClick={handleFilterKeyChange("youtube")}
                 >
                   Youtube
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={`c-pointer ${activeBtn("vimeo")}`}
                   onClick={handleFilterKeyChange("vimeo")}
                 >
                   Vimeo
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={`c-pointer ${activeBtn("soundcloud")}`}
                   onClick={handleFilterKeyChange("soundcloud")}
                 >
                   Soundcloud
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={`c-pointer ${activeBtn("popup")}`}
                   onClick={handleFilterKeyChange("popup")}
                 >
                   Popup
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className={`c-pointer  ${activeBtn("detail")}`}
                   onClick={handleFilterKeyChange("detail")}
                 >
                   Detail
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -120,7 +121,7 @@ const Portfolio = () => {
                     data-title="Mockup Shape"
                     data-category="Youtube"
                   >
-                    <a
+                    <Link
                       className="popup-youtube"
                       href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
                     >
@@ -129,7 +130,7 @@ const Portfolio = () => {
                         className="main"
                         data-img-url="img/portfolio/1.jpg"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="mobile_title">
                     <h3>Mockup Shape</h3>
@@ -144,7 +145,7 @@ const Portfolio = () => {
                     data-title="Ave Bottle"
                     data-category="Vimeo"
                   >
-                    <a
+                    <Link
                       className="popup-vimeo"
                       href="https://player.vimeo.com/video/337293658?autoplay=1"
                     >
@@ -153,7 +154,7 @@ const Portfolio = () => {
                         className="main"
                         data-img-url="img/portfolio/2.jpg"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="mobile_title">
                     <h3>Ave Bottle</h3>
@@ -168,7 +169,7 @@ const Portfolio = () => {
                     data-title="Magic Art"
                     data-category="Soundcloud"
                   >
-                    <a
+                    <Link
                       className="soundcloude_link mfp-iframe audio"
                       href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     >
@@ -177,7 +178,7 @@ const Portfolio = () => {
                         className="main"
                         data-img-url="img/portfolio/3.jpg"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="mobile_title">
                     <h3>Magic Art</h3>
@@ -192,13 +193,13 @@ const Portfolio = () => {
                     data-title="Scott Felix"
                     data-category="Popup"
                   >
-                    <a className="zoom" href="img/portfolio/5.jpg">
+                    <Link className="zoom" href="img/portfolio/5.jpg">
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
                         className="main"
                         data-img-url="img/portfolio/5.jpg"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="mobile_title">
                     <h3>Blue Lemon</h3>
@@ -213,13 +214,13 @@ const Portfolio = () => {
                     data-title="Art Stone"
                     data-category="Popup"
                   >
-                    <a className="zoom" href="img/portfolio/4.jpg">
+                    <Link className="zoom" href="img/portfolio/4.jpg">
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
                         data-img-url="img/portfolio/4.jpg"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="mobile_title">
                     <h3>Art Stone</h3>
@@ -235,13 +236,13 @@ const Portfolio = () => {
                     data-title="Global Evolution"
                     data-category="Detail"
                   >
-                    <a className="portfolio_popup" href="#">
+                    <Link className="portfolio_popup" href="#">
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
                         data-img-url="img/portfolio/6.jpg"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="mobile_title">
                     <h3>Global Evolution</h3>
