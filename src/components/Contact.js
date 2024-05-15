@@ -40,7 +40,7 @@ const Contact = () => {
                       <div className="short">
                         <h3>Email</h3>
                         <span>
-                          <a href="#">{data.contact.email}</a>
+                          <a href="mailto:muhammadasadillahr@gmail.com" target="_blank" rel="noreferrer">{data.contact.email}</a>
                         </span>
                       </div>
                     </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                       </div>
                       <div className="short">
                         <h3>Phone</h3>
-                        <span>{data.contact.phn}</span>
+                        <span><a href="https://wa.me/62895403653913" target="_blank" rel="noreferrer">{data.contact.phn}</a></span>
                       </div>
                     </div>
                   </li>

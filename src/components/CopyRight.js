@@ -6,18 +6,18 @@ const CopyRight = ({ brandName }) => {
           <div className="inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <p>
-                Developed with love by{" "}
-                <a
+                Developed with love by<b>{" Muhammad Asadillah R "}</b>
+                {/* <a
                   href="https://themeforest.net/user/codeefly"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {brandName && brandName}
-                </a>{" "}
+                </a>{" "} */}
                 © {new Date().getFullYear()}
               </p>
             </div>
-            <div className="right wow fadeInRight" data-wow-duration="1s">
+            {/* <div className="right wow fadeInRight" data-wow-duration="1s">
               <ul>
                 <li>
                   <a href="#">{`Terms & Condition`}</a>
@@ -26,7 +26,7 @@ const CopyRight = ({ brandName }) => {
                   <a href="#">Privacy Policy</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

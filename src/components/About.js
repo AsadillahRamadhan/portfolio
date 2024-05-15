@@ -11,10 +11,10 @@ const About = ({ dark }) => {
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={18} />
+                      <Counter end={6} />
                     </h3>
                     <span className="name">
-                      Years of
+                      Months of
                       <br />
                       Success
                     </span>
@@ -23,7 +23,7 @@ const About = ({ dark }) => {
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={9} />K
+                      <Counter end={2} />
                     </h3>
                     <span className="name">
                       Total
@@ -37,15 +37,14 @@ const About = ({ dark }) => {
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
                 <span>{`I'm a Web Developer`}</span>
-                <h3>I Can Design Anything You Want</h3>
+                <h3>I Can Make You Various Type of Websites</h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                  {`Hello there! I'm a web designer, and I'm very passionate and
-                  dedicated to my work. With 20 years experience as a
-                  professional web developer, I have acquired the skills and
+                  {`Hello there! I'm a web developer, and I'm very passionate and
+                  dedicated to my work. With about 6 months experience as a web developer, I have acquired the skills and
                   knowledge necessary to make your project a success. I enjoy
-                  every step of the design process, from discussion and
+                  every step of the developing process, from discussion and
                   collaboration.`}
                 </p>
               </div>

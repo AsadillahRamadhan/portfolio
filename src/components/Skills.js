@@ -42,7 +42,7 @@ const Skills = ({ dark }) => {
                       key={i}
                     >
                       <span>
-                        <span className="label">{skill.name}</span>
+                        <span className="label">{skill.name.charAt(0).toUpperCase() + skill.name.slice(1)}</span>
                         <span className="number">{skill.value}%</span>
                       </span>
                       <div className="background">

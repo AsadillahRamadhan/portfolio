@@ -4,11 +4,11 @@ const Header = ({ logo }) => {
       <div className="container">
         <div className="inner">
           <div className="logo">
-            <a href="#">
+            {/* <a href="#">
               {logo && (
                 <img src={logo ? logo : "img/logo/logo.png"} alt="image" />
               )}
-            </a>
+            </a> */}
           </div>
           <div className="menu">
             <ul className="anchor_nav">
@@ -31,7 +31,7 @@ const Header = ({ logo }) => {
                 <a href="#contact">Contact</a>
               </li>
               <li className="download_cv">
-                <a href="img/cv/1.jpg" download="">
+                <a href="img/cv/cv.pdf" download="">
                   <span>Download CV</span>
                 </a>
               </li>

@@ -1,6 +1,7 @@
 import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
+import Image from "next/image";
 
 const Home = ({ dark }) => {
   const [data, setData] = useState({});
@@ -46,7 +47,7 @@ const Home = ({ dark }) => {
                       data.social &&
                       data.social.map((social, i) => (
                         <li key={i}>
-                          <a href="#">
+                          <a href={social.url} target="_blank" rel="noreferrer">
                             <i className={social.icon} />
                           </a>
                         </li>
@@ -70,7 +71,7 @@ const Home = ({ dark }) => {
                           key={i}
                           className={`skills ${skill.name} anim_moveBottom`}
                         >
-                          {parse(skill.icon)}
+                          {<img src={parse(skill.icon)} alt={skill.name} title={skill.name} /> }
                         </span>
                       )
                   )}
